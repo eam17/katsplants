@@ -269,7 +269,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
  -->
 <!-- End page content -->
 </div>
-
+<script src="data.js"></script>
 <script>
 // Script to open and close sidebar
 function w3_open() {
@@ -282,59 +282,6 @@ function w3_close() {
     document.getElementById("myOverlay").style.display = "none";
 }
 
-const items = [
-  {
-    image: '/w3images/lights.jpg',
-    title: 'Norway',
-    description: 'Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae.'
-  },
-  {
-    image: '/w3images/nature.jpg',
-    title: 'Nature',
-    description: 'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.'
-  },
-  {
-    image: '/w3images/lights.jpg',
-    title: 'Norway',
-    description: 'Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae.'
-  },
-  {
-    image: '/w3images/nature.jpg',
-    title: 'Nature',
-    description: 'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.'
-  },
-  {
-    image: '/w3images/lights.jpg',
-    title: 'Norway',
-    description: 'Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae.'
-  },
-  {
-    image: '/w3images/nature.jpg',
-    title: 'Nature',
-    description: 'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.'
-  },
-  {
-    image: '/w3images/lights.jpg',
-    title: 'Norway',
-    description: 'Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae.'
-  },
-  {
-    image: '/w3images/nature.jpg',
-    title: 'Nature',
-    description: 'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.'
-  },
-  {
-    image: '/w3images/lights.jpg',
-    title: 'Norway',
-    description: 'Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae.'
-  },
-  {
-    image: '/w3images/nature.jpg',
-    title: 'Nature',
-    description: 'Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.'
-  },
-  // Add more as needed
-];
 
 const itemsPerPage = 6;
 let currentPage = 1;
@@ -352,10 +299,10 @@ function renderPage(page) {
     card.className = 'w3-third w3-container w3-margin-bottom w3-card-4 w3-round w3-hover-shadow';
 
     card.innerHTML = `
-      <img src="${item.image}" alt="${item.title}" style="width:100%" class="w3-hover-opacity">
+      <img src="${item.image}" alt="${item.scientific_name}" style="width:100%" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>${item.title}</b></p>
-        <p>${item.description}</p>
+        <p><b>${item.scientific_name}</b></p>
+        <p>${item.common_name}</p>
       </div>
     `;
 
