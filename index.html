@@ -310,8 +310,18 @@ items.forEach(item => {
   `;
 
   container.appendChild(card);
-}
+})
 </script>
+
+<style>
+  #cardContainer .w3-card-4 {
+    transition: transform 0.2s ease;
+  }
+
+  #cardContainer .w3-card-4:hover {
+    transform: translateY(-5px);
+  }
+</style>
 
 </body>
 </html>
