@@ -105,7 +105,7 @@ const items = [
         "scientific_name": "Ledebouria socialis",
         "common_name": "Silver Squill",
         "genus": "Ledebouria",
-        "image_url": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fpqox6g99pgrb1.jpg"
+        "image_url": "https://i.etsystatic.com/18043111/r/il/cde315/4217573219/il_570xN.4217573219_9gge.jpg"
     },
     {
         "scientific_name": "Chlorophytum comosum",
