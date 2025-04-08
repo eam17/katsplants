@@ -51,7 +51,7 @@ const items = [
         "scientific_name": "Epipremnum aureum 'Manjula'",
         "common_name": "Manjula Pothos",
         "genus": "Epipremnum",
-        "image_url": https://thegardening.org/wp-content/uploads/2022/08/Manjula-Pothos.webp”
+        "image_url": "https://thegardening.org/wp-content/uploads/2022/08/Manjula-Pothos.webp”
     },
     {
         "scientific_name": "Epipremnum aureum 'Neon'",
