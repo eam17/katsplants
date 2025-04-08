@@ -47,7 +47,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- Header -->
   <header id="portfolio">
    <div class="w3-container">
-    <h1><b>My Plants</b></h1>
+    <h1><b>Kat's Plants</b></h1>
     <div class="w3-section w3-bottombar w3-padding-16">
       <span class="w3-margin-right">Filter:</span> 
       <button class="w3-button w3-black">ALL</button>
@@ -296,10 +296,10 @@ function renderPage(page) {
 
   pageItems.forEach(item => {
     const card = document.createElement('div');
-    card.className = 'w3-third w3-container w3-margin-bottom w3-card-4 w3-round w3-hover-shadow';
+    card.className = 'w3-third w3-container w3-margin-bottom w3-card-4 w3-round';
 
     card.innerHTML = `
-      <img src="${item.image_url}" alt="${item.common_name}" style="width:100%" class="w3-hover-opacity">
+      <img src="${item.image_url}" alt="${item.common_name}" style="width:100%">
       <div class="w3-container w3-white">
         <p><b>${item.common_name}</b></p>
         <p>${item.scientific_name}, ${item.genus}</p>
