@@ -33,96 +33,90 @@ const items = [
         "scientific_name": "Philodendron hederaceum 'Brasil'",
         "common_name": "Brasil Philodendron",
         "genus": "Philodendron",
-        "image_url": "https://www.plantvine.com/wp-content/uploads/2018/08/Philodendron-Brasil-Heartleaf-Philodendron-Medium-01.jpg"
+        "image_url": "https://plantstogo.com/wp-content/uploads/2024/08/4PHIBR-5440__48860.jpg"
     },
     {
         "scientific_name": "Ficus elastica 'Burgundy'",
         "common_name": "Burgundy Rubber Plant",
         "genus": "Ficus",
-        "image_url": "https://plants.gardeners.com/12100010/Plant/27358/Burgundy_Rubber_Tree"
+        "image_url": "https://www.plantshopgr.com/cdn/shop/products/image_6f15da82-a1b3-48a2-b780-e26820ae2efa.jpg?v=1680901787"
     },
     {
         "scientific_name": "Hoya carnosa 'Krimson Princess'",
         "common_name": "Krimson Princess",
         "genus": "Hoya",
-        "image_url": "https://www.plantcarefully.com/wp-content/uploads/2023/06/hoya-krimson-princess-featured-01.jpg"
+        "image_url": "https://serreslavoie.com/cdn/shop/files/978A526B-3A02-40C1-9DF1-7E7F346D7CFE.jpg?v=1729693415&width=480"
     },
     {
         "scientific_name": "Epipremnum aureum 'Manjula'",
         "common_name": "Manjula Pothos",
         "genus": "Epipremnum",
-        "image_url": "https://flatwithplants.com/wp-content/uploads/2019/09/manjula-pothos-plant.jpg"
-    },
-    {
-        "scientific_name": "Dracaena trifasciata",
-        "common_name": "Mother-in-Law's Tongue",
-        "genus": "Dracaena",
-        "image_url": "https://www.istockphoto.com/photos/mother-in-laws-tongue"
+        "image_url": https://thegardening.org/wp-content/uploads/2022/08/Manjula-Pothos.webp”
     },
     {
         "scientific_name": "Epipremnum aureum 'Neon'",
         "common_name": "Neon Pothos",
         "genus": "Epipremnum",
-        "image_url": "https://www.pinterest.com/pin/685180530809195994/"
+        "image_url": "https://www.gabriellaplants.com/cdn/shop/files/gabriella-plants-pothos-epipremnum-aureum-neon-4-40230648709365.jpg?v=1710959302"
     },
     {
         "scientific_name": "Araucaria heterophylla",
         "common_name": "Norfolk Island Pine",
         "genus": "Araucaria",
-        "image_url": "https://www.istockphoto.com/photos/norfolk-island-pine"
+        "image_url": "https://heyrooted.com/cdn/shop/files/NORFOLK_PINE_4-2.jpg?v=1698693481&width=1946"
     },
     {
         "scientific_name": "Chamaedorea elegans",
         "common_name": "Parlor Palm",
         "genus": "Chamaedorea",
-        "image_url": "https://hortology.co.uk/products/chamaedorea-elegans-parlour-palm-house-plant"
+        "image_url": "https://cdn.mos.cms.futurecdn.net/qcdYRNJMNAvPyqCpn8P6hS.jpg"
     },
     {
         "scientific_name": "Philodendron erubescens 'Pink Princess'",
         "common_name": "Pink Princess Philodendron",
         "genus": "Philodendron",
-        "image_url": "https://www.shutterstock.com/search/pink-princess-philodendron"
+        "image_url": "https://www.gabriellaplants.com/cdn/shop/files/gabriella-plants-philodendron-pink-princess-4-40493221675253_1800x1800.jpg?v=1713379415"
     },
     {
         "scientific_name": "Ficus lyrata",
-        "common_name": "Quercifolia Fig",
+        "common_name": "Oak Leaf Creeping Fig",
         "genus": "Ficus",
-        "image_url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/"
+        "image_url": "https://i.etsystatic.com/21398824/r/il/0374dc/4761212583/il_fullxfull.4761212583_25pl.jpg"
     },
     {
         "scientific_name": "Zamioculcas zamiifolia 'Raven'",
         "common_name": "Raven ZZ Plant",
         "genus": "Zamioculcas",
-        "image_url": "https://www.thespruce.com/types-of-snake-plants-6826350"
+        "image_url": "https://www.fortheloveofnature.in/cdn/shop/products/zamioculcaszamiifoliablack_ZZplant_3_1445x.jpg?v=1640255324"
     },
     {
         "scientific_name": "Ficus elastica 'Ruby'",
         "common_name": "Ruby Rubber Plant",
         "genus": "Ficus",
-        "image_url": "https://www.southernliving.com/pink-plants-8606683"
+        "image_url": "https://www.succulentsdepot.com/cdn/shop/products/PhotoRoom-20210725_164426.png?v=1627258885"
     },
     {
         "scientific_name": "Scindapsus pictus",
-        "common_name": "Silver Philodendron",
+        "common_name": "Satin Pothos",
         "genus": "Scindapsus",
-        "image_url": "https://www.thespruce.com/types-of-hoya-7561716"
+        "image_url": "https://www.thespruce.com/thmb/d_K0HrpEfkWiGGGjPaVIzsVlarw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/growing-satin-pothos-5114102-hero-9415effa5b9b44d6918731503ec76b6f.jpg"
     },
     {
         "scientific_name": "Ledebouria socialis",
         "common_name": "Silver Squill",
         "genus": "Ledebouria",
-        "image_url": "https://www.bhg.com/indoor-palm-plants-8553059"
+        "image_url": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fpqox6g99pgrb1.jpg"
     },
     {
         "scientific_name": "Chlorophytum comosum",
         "common_name": "Spider Plant",
         "genus": "Chlorophytum",
-        "image_url": "https://www.bhg.com/indoor-palm-plants-8553059"
+        "image_url": "https://succulentsbox.com/cdn/shop/files/Spider-Plant-4_2048x_9db66466-44cb-4db2-ac78-00b34a7699b5_600x.jpg?v=1742271732"
     },
     {
         "scientific_name": "Monstera deliciosa 'Thai Constellation'",
         "common_name": "Thai Constellation Monstera",
         "genus": "Monstera",
-        "image_url": "https://www.bhg.com/indoor-palm-plants-8553059"
-    }
+        "image_url": "https://greenboog.com/wp-content/uploads/2023/02/Monstera-Thai-Constellation-Variegated.webp”
+}
 ]
