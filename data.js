@@ -124,4 +124,5 @@ const items = [
         "common_name": "Thai Constellation Monstera",
         "genus": "Monstera",
         "image_url": "https://www.bhg.com/indoor-palm-plants-8553059"
+    }
 ]
