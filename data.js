@@ -12,7 +12,7 @@ const items = [
         "image_url": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1713479758-81Y4e7YGSBL.jpg?crop=0.873xw:0.873xh;0.0869xw,0.00427xh&resize=980:*"
     },
     {
-        "scientific_name": "Asparagus densiflorus",
+        "scientific_name": "Asparagus setaceus",
         "common_name": "Asparagus Fern",
         "genus": "Asparagus",
         "image_url": "https://images.squarespace-cdn.com/content/v1/5e1a9e93d343ec0c523f4074/8d25be27-fa89-43da-909b-bc2cb3d4e752/Asparagus_Fern_Orange.jpg"
@@ -24,9 +24,9 @@ const items = [
         "image_url": "https://edsplantshop.com/cdn/shop/files/peperomia-obtusifolia-variegata-baby-rubber-plant-925115.jpg?v=1732259518"
     },
     {
-        "scientific_name": "Sansevieria trifasciata 'Laurentii'",
-        "common_name": "Becky Snake Plant",
-        "genus": "Sansevieria",
+        "scientific_name": "Dracaena trifasciata",
+        "common_name": "Snake Plant",
+        "genus": "Dracaena",
         "image_url": "https://planetdesert.com/cdn/shop/files/Variegated-Snake-Plant-Sansevieria-laurentii-6-inch_9_1400x.jpg?v=1739474752"
     },
     {
@@ -42,7 +42,7 @@ const items = [
         "image_url": "https://www.plantshopgr.com/cdn/shop/products/image_6f15da82-a1b3-48a2-b780-e26820ae2efa.jpg?v=1680901787"
     },
     {
-        "scientific_name": "Hoya carnosa 'Krimson Princess'",
+        "scientific_name": "Hoya carnosa 'Rubra",
         "common_name": "Krimson Princess",
         "genus": "Hoya",
         "image_url": "https://serreslavoie.com/cdn/shop/files/978A526B-3A02-40C1-9DF1-7E7F346D7CFE.jpg?v=1729693415&width=480"
@@ -51,7 +51,7 @@ const items = [
         "scientific_name": "Epipremnum aureum 'Manjula'",
         "common_name": "Manjula Pothos",
         "genus": "Epipremnum",
-        "image_url": "https://thegardening.org/wp-content/uploads/2022/08/Manjula-Pothos.webp”
+        "image_url": "https://thegardening.org/wp-content/uploads/2022/08/Manjula-Pothos.webp"
     },
     {
         "scientific_name": "Epipremnum aureum 'Neon'",
@@ -78,7 +78,7 @@ const items = [
         "image_url": "https://www.gabriellaplants.com/cdn/shop/files/gabriella-plants-philodendron-pink-princess-4-40493221675253_1800x1800.jpg?v=1713379415"
     },
     {
-        "scientific_name": "Ficus lyrata",
+        "scientific_name": "Ficus pumila ‘Quercifolia’",
         "common_name": "Oak Leaf Creeping Fig",
         "genus": "Ficus",
         "image_url": "https://i.etsystatic.com/21398824/r/il/0374dc/4761212583/il_fullxfull.4761212583_25pl.jpg"
@@ -117,6 +117,6 @@ const items = [
         "scientific_name": "Monstera deliciosa 'Thai Constellation'",
         "common_name": "Thai Constellation Monstera",
         "genus": "Monstera",
-        "image_url": "https://greenboog.com/wp-content/uploads/2023/02/Monstera-Thai-Constellation-Variegated.webp”
+        "image_url": "https://greenboog.com/wp-content/uploads/2023/02/Monstera-Thai-Constellation-Variegated.webp"
 }
 ]
