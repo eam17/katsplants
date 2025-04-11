@@ -22,9 +22,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <h1><b>Kat's Plants</b></h1>
     <div class="w3-section w3-bottombar w3-padding-16">
       <span class="w3-margin-right">Sort:</span> 
-      <button class="w3-button w3-black" onclick="changeSorting(0)">Alphabetically</button>
-      <button class="w3-button w3-black" onclick="changeSorting(1)">By Genus</button>
-      <button class="w3-button w3-black" onclick="changeSorting(2)">Available For Trades</button>
+      <button class="w3-button w3-white" onclick="changeSorting(0)">Alphabetically</button>
+      <button class="w3-button w3-white" onclick="changeSorting(1)">By Genus</button>
+      <button class="w3-button w3-white" onclick="changeSorting(2)">Available For Trades</button>
     </div>
     </div>
   </header>
@@ -46,16 +46,9 @@ function renderPage(page) {
   const container = document.getElementById('cardContainer');
   container.innerHTML = ''; // Clear previous content
 
-  if(sorting == 0){
-  items.sort((a, b) => a.common_name.localeCompare(b.common_name));
-  }
-  else if (sorting == 1){
-    items.sort((a, b) => a.genus.localeCompare(b.genus));
-  }
-
   const start = (page - 1) * itemsPerPage;
   const end = start + itemsPerPage;
-  const pageItems = items.slice(start, end);
+  const pageItems = sortedItems.slice(start, end);
 
   pageItems.forEach(item => {
     let tradeInfo = '';
@@ -84,7 +77,7 @@ function renderPage(page) {
 }
 
 function renderPagination() {
-  const totalPages = Math.ceil(items.length / itemsPerPage);
+  const totalPages = Math.ceil(sortedItems.length / itemsPerPage);
   const pagination = document.getElementById('pagination');
   pagination.innerHTML = '';
 
