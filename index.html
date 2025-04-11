@@ -40,6 +40,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 const itemsPerPage = 9;
 let currentPage = 1;
 let sorting = 0 // 0 = alphabetically, 1 = by genus
+let sortedItems = items
 
 function renderPage(page) {
   const container = document.getElementById('cardContainer');
@@ -57,6 +58,13 @@ function renderPage(page) {
   const pageItems = items.slice(start, end);
 
   pageItems.forEach(item => {
+    let tradeInfo = '';
+    if (item.available === 1) {
+      tradeInfo = '<p><i>Available for: Cuttings</i></p>';
+    } else if (item.available === 2) {
+      tradeInfo = '<p><i>Available for: Cuttings & Whole Plants</i></p>';
+    }
+    
     const card = document.createElement('div');
     card.className = 'w3-third w3-container w3-margin-bottom w3-card-4 w3-round';
 
@@ -65,6 +73,7 @@ function renderPage(page) {
       <div class="w3-container w3-white">
         <p><b>${item.common_name}</b></p>
         <p>${item.scientific_name}, ${item.genus}</p>
+        <p>${tradeInfo}}</p>
       </div>
     `;
 
@@ -99,11 +108,12 @@ function changeSorting(value) {
 
 function sortItems() {
   if (sorting === 0) {
-    items.sort((a, b) => (a.common_name || '').localeCompare(b.common_name || ''));
+    sortedItems = items.sort((a, b) => (a.common_name || '').localeCompare(b.common_name || ''));
   } else if (sorting === 1) {
-    items.sort((a, b) => (a.genus || '').localeCompare(b.genus || ''));
+    sortedItems = items.sort((a, b) => (a.genus || '').localeCompare(b.genus || ''));
   } else if (sorting === 2) {
-    items.sort((a, b) => (a.genus || '').localeCompare(b.genus || ''));
+    sortedItems = items.filter(item => item.available !== 0);
+    sortedItems.sort((a, b) => (a.common_name || '').localeCompare(b.common_name || ''));
   }
 }
 
