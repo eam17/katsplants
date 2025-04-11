@@ -105,7 +105,7 @@ function sortItems() {
   } else if (sorting === 1) {
     sortedItems = items.sort((a, b) => (a.genus || '').localeCompare(b.genus || ''));
   } else if (sorting === 2) {
-    sortedItems = items.filter(item => item.available !== 0);
+    sortedItems = items.filter(item => item.available !== "0");
     sortedItems.sort((a, b) => (a.common_name || '').localeCompare(b.common_name || ''));
   }
 }
