@@ -20,14 +20,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <header id="portfolio">
    <div class="w3-container">
     <h1><b>Kat's Plants</b></h1>
-     <!--
     <div class="w3-section w3-bottombar w3-padding-16">
-      <span class="w3-margin-right">Filter:</span> 
-      <button class="w3-button w3-black">ALL</button>
-      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
-    </div>-->
+      <span class="w3-margin-right">Sort:</span> 
+      <button class="w3-button w3-black">Alphabetically</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>By Genus</button>
+    </div>
     </div>
   </header>
   
@@ -47,7 +44,7 @@ function renderPage(page) {
   const container = document.getElementById('cardContainer');
   container.innerHTML = ''; // Clear previous content
 
-  items.sort((a, b) => a.title.localeCompare(b.title));
+  items.sort((a, b) => a.common_name.localeCompare(b.common_name));
 
   const start = (page - 1) * itemsPerPage;
   const end = start + itemsPerPage;
