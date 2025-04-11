@@ -23,7 +23,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <div class="w3-section w3-bottombar w3-padding-16">
       <span class="w3-margin-right">Sort:</span> 
       <button class="w3-button w3-black" onclick="changeSorting(0)">Alphabetically</button>
-      <button class="w3-button w3-white" onclick="changeSorting(1)">By Genus</button>
+      <button class="w3-button w3-black" onclick="changeSorting(1)">By Genus</button>
+      <button class="w3-button w3-black" onclick="changeSorting(2)">Available For Trades</button>
     </div>
     </div>
   </header>
@@ -100,6 +101,8 @@ function sortItems() {
   if (sorting === 0) {
     items.sort((a, b) => (a.common_name || '').localeCompare(b.common_name || ''));
   } else if (sorting === 1) {
+    items.sort((a, b) => (a.genus || '').localeCompare(b.genus || ''));
+  } else if (sorting === 2) {
     items.sort((a, b) => (a.genus || '').localeCompare(b.genus || ''));
   }
 }
