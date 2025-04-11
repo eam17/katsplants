@@ -22,8 +22,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <h1><b>Kat's Plants</b></h1>
     <div class="w3-section w3-bottombar w3-padding-16">
       <span class="w3-margin-right">Sort:</span> 
-      <button class="w3-button w3-black">Alphabetically</button>
-      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>By Genus</button>
+      <button class="w3-button w3-black" onclick="changeSorting(0)">Alphabetically</button>
+      <button class="w3-button w3-white" onclick="changeSorting(1)">By Genus</button>
     </div>
     </div>
   </header>
@@ -90,7 +90,22 @@ function renderPagination() {
   }
 }
 
+function changeSorting(value) {
+  sorting = value;
+  sortItems();
+  renderPage(1); // Reset to page 1 after sorting
+}
+
+function sortItems() {
+  if (sorting === 0) {
+    items.sort((a, b) => (a.common_name || '').localeCompare(b.common_name || ''));
+  } else if (sorting === 1) {
+    items.sort((a, b) => (a.genus || '').localeCompare(b.genus || ''));
+  }
+}
+
 // Initial render
+sortItems();
 renderPage(currentPage);
 </script>
 
