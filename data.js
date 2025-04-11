@@ -118,5 +118,77 @@ const items = [
         "common_name": "Thai Constellation Monstera",
         "genus": "Monstera",
         "image_url": "https://greenboog.com/wp-content/uploads/2023/02/Monstera-Thai-Constellation-Variegated.webp"
-}
+    },
+    {
+        "scientific_name": "Monstera deliciosa",
+        "common_name": "Monstera",
+        "genus": "Monstera",
+        "image_url": "https://www.thespruce.com/how-to-grow-monstera-deliciosa-5072671"
+    },
+    {
+        "scientific_name": "Pilea peperomioides",
+        "common_name": "Chinese Money Plant",
+        "genus": "Pilea",
+        "image_url": "https://www.gardeningetc.com/advice/chinese-money-plant-care"
+    },
+    {
+        "scientific_name": "Aeschynanthus radicans",
+        "common_name": "Lipstick Plant",
+        "genus": "Aeschynanthus",
+        "image_url": "https://smartgardenguide.com/lipstick-plant-care/"
+    },
+    {
+        "scientific_name": "Epipremnum aureum",
+        "common_name": "Golden Pothos",
+        "genus": "Epipremnum",
+        "image_url": "https://en.wikipedia.org/wiki/Epipremnum_aureum"
+    },
+    {
+        "scientific_name": "Dieffenbachia amoena",
+        "common_name": "Dumb Cane",
+        "genus": "Dieffenbachia",
+        "image_url": "https://www.thespruce.com/dumb-cane-dieffenbachia-definition-1902751"
+    },
+    {
+        "scientific_name": "Peperomia argyreia",
+        "common_name": "Watermelon Peperomia",
+        "genus": "Peperomia",
+        "image_url": "https://dengarden.com/gardening/Plant-Mamas-Care-Tips-for-Watermelon-Peperomia"
+    },
+    {
+        "scientific_name": "Hedera helix",
+        "common_name": "English Ivy",
+        "genus": "Hedera",
+        "image_url": "https://www.gardeningknowhow.com/ornamental/groundcover/english-ivy/english-ivy-plant-care.htm"
+    },
+    {
+        "scientific_name": "Begonia bowerae",
+        "common_name": "Eyelash Begonia",
+        "genus": "Begonia",
+        "image_url": "https://plantsmith.net.au/products/begonia-bowerae-eyelash-begonia-in-samso-rust-planter"
+    },
+    {
+        "scientific_name": "Oxalis triangularis",
+        "common_name": "False Shamrock",
+        "genus": "Oxalis",
+        "image_url": "https://florgeous.com/false-shamrock/"
+    },
+    {
+        "scientific_name": "Ficus elastica 'Tineke'",
+        "common_name": "Tineke Rubber Tree",
+        "genus": "Ficus",
+        "image_url": "https://urbanperennials.com/product/tineke-rubber-tree-ficus-elastica/"
+    },
+    {
+        "scientific_name": "Schefflera arboricola",
+        "common_name": "Umbrella Tree",
+        "genus": "Schefflera",
+        "image_url": "https://retreatinteriors.com/2018/10/28/meet-the-umbrella-tree"
+    },
+    {
+        "scientific_name": "Dionaea muscipula",
+        "common_name": "Venus Flytrap",
+        "genus": "Dionaea",
+        "image_url": "https://www.gardeningknowhow.com/houseplants/venus-fly-trap/venus-fly-trap-care.htm"
+    }
 ]
