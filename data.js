@@ -143,84 +143,84 @@ const items = [
         "scientific_name": "Monstera deliciosa",
         "common_name": "Monstera",
         "genus": "Monstera",
-        "image_url": "https://www.thespruce.com/how-to-grow-monstera-deliciosa-5072671",
+        "image_url": "https://www.provenwinners.com/sites/provenwinners.com/files/ifa_upload/monstera_delicisoa_monster_mash_swiss_cheese_vine_tag.jpg",
         "available": "0"
     },
     {
         "scientific_name": "Pilea peperomioides",
         "common_name": "Chinese Money Plant",
         "genus": "Pilea",
-        "image_url": "https://www.gardeningetc.com/advice/chinese-money-plant-care",
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/10/2021/03/2048x1365-Pilea-Peperomioides-SEO-GettyImages-1225860485-79b134d.jpg",
         "available": "1"
     },
     {
         "scientific_name": "Aeschynanthus radicans",
         "common_name": "Lipstick Plant",
         "genus": "Aeschynanthus",
-        "image_url": "https://smartgardenguide.com/lipstick-plant-care/",
+        "image_url": "https://nouveauraw.com/wp-content/uploads/2020/07/lipstick-plant-800.png",
         "available": "1"
     },
     {
         "scientific_name": "Epipremnum aureum",
         "common_name": "Golden Pothos",
         "genus": "Epipremnum",
-        "image_url": "https://en.wikipedia.org/wiki/Epipremnum_aureum",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjMlKpH1h4F6LZpUEFP5W3U6kfOK_76W76t8y3mpnkvhM2Xvt1qdlyDoD1Os9kZHtEvyn-5viMBwGSPczD1JNjLw",
         "available": "1"
     },
     {
         "scientific_name": "Dieffenbachia amoena",
         "common_name": "Dumb Cane",
         "genus": "Dieffenbachia",
-        "image_url": "https://www.thespruce.com/dumb-cane-dieffenbachia-definition-1902751",
+        "image_url": "https://www.healthyhouseplants.com/wp-content/uploads/2024/08/Dumbcane-Dieffenbachia-1200x1200.jpg",
         "available": "0"
     },
     {
         "scientific_name": "Peperomia argyreia",
         "common_name": "Watermelon Peperomia",
         "genus": "Peperomia",
-        "image_url": "https://dengarden.com/gardening/Plant-Mamas-Care-Tips-for-Watermelon-Peperomia",
+        "image_url": "https://i.etsystatic.com/35559671/r/il/f64496/5499588394/il_794xN.5499588394_gj7c.jpg",
         "available": "2"
     },
     {
         "scientific_name": "Hedera helix",
         "common_name": "English Ivy",
         "genus": "Hedera",
-        "image_url": "https://www.gardeningknowhow.com/ornamental/groundcover/english-ivy/english-ivy-plant-care.htm",
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/10/2021/09/hedera.helix_-02ba5c9.jpg?quality=90&resize=940,627",
         "available": "1"
     },
     {
         "scientific_name": "Begonia bowerae",
         "common_name": "Eyelash Begonia",
         "genus": "Begonia",
-        "image_url": "https://plantsmith.net.au/products/begonia-bowerae-eyelash-begonia-in-samso-rust-planter",
+        "image_url": "https://i.etsystatic.com/24919299/r/il/d43220/3343860649/il_fullxfull.3343860649_emm3.jpg",
         "available": "1"
     },
     {
         "scientific_name": "Oxalis triangularis",
         "common_name": "False Shamrock",
         "genus": "Oxalis",
-        "image_url": "https://florgeous.com/false-shamrock/",
+        "image_url": "https://images.cdn-files-a.com/uploads/1826974/2000_5d9259f93f8e3.jpg",
         "available": "1"
     },
     {
         "scientific_name": "Ficus elastica 'Tineke'",
         "common_name": "Tineke Rubber Tree",
         "genus": "Ficus",
-        "image_url": "https://urbanperennials.com/product/tineke-rubber-tree-ficus-elastica/",
+        "image_url": "https://plant-material.com/cdn/shop/products/image_d5862937-d34d-4e3b-afdc-d5ad463f87aa.jpg?v=1601584510",
         "available": "0"
     },
     {
         "scientific_name": "Schefflera arboricola",
         "common_name": "Umbrella Tree",
         "genus": "Schefflera",
-        "image_url": "https://retreatinteriors.com/2018/10/28/meet-the-umbrella-tree",
+        "image_url": "https://www.livelyroot.com/cdn/shop/products/pl_ScheffleraGoldCapella_4IN_po_grower_detail-3.jpg?v=1656480930&width=960",
         "available": "1"
     },
     {
         "scientific_name": "Dionaea muscipula",
         "common_name": "Venus Flytrap",
         "genus": "Dionaea",
-        "image_url": "https://www.gardeningknowhow.com/houseplants/venus-fly-trap/venus-fly-trap-care.htm",
+        "image_url": "https://www.groundsguys.ca/ca/en-ca/grounds-guys/_assets/VenusFlytrap.webp",
         "available": "0"
     }
 ]
