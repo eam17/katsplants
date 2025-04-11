@@ -44,7 +44,12 @@ function renderPage(page) {
   const container = document.getElementById('cardContainer');
   container.innerHTML = ''; // Clear previous content
 
+  if(sorting == 0){
   items.sort((a, b) => a.common_name.localeCompare(b.common_name));
+  }
+  else if (sorting == 1){
+    items.sort((a, b) => a.genus.localeCompare(b.genus));
+  }
 
   const start = (page - 1) * itemsPerPage;
   const end = start + itemsPerPage;
