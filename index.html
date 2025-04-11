@@ -60,9 +60,9 @@ function renderPage(page) {
   pageItems.forEach(item => {
     let tradeInfo = '';
     if (item.available === 1) {
-      tradeInfo = '<p><i>Available for: Cuttings</i></p>';
+      tradeInfo = '<p><i>Available: Cuttings</i></p>';
     } else if (item.available === 2) {
-      tradeInfo = '<p><i>Available for: Cuttings & Whole Plants</i></p>';
+      tradeInfo = '<p><i>Available: Cuttings & Whole Plants</i></p>';
     }
     
     const card = document.createElement('div');
